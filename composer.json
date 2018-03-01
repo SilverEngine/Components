@@ -1,0 +1,22 @@
+{
+    "name": "SilverEngine/Components",
+    "authors": [
+        {
+            "name": "SilverEngine Framework - Components",
+            "email": "support@silverengine.net"
+        }
+    ],
+    "require": {},
+
+    "autoload": {
+        "psr-4" : {
+            "Silver\\Components\\" : "src/"
+        }
+    },
+
+    "autoload-dev":{
+        "psr-4": {
+            "Tests\\" : "test/"
+        }
+    }
+}
