@@ -14,16 +14,10 @@ namespace App\Facades;
 
 use Silver\Components\Crypto\Facade;
 
-
-/**
- * response event provider
- */
 class Crypto extends \Silver\Components\Facade\Facade
 {
-
     protected static function getClass()
     {
         return '\Silver\Components\Crypto\Crypto';
     }
-
 }
